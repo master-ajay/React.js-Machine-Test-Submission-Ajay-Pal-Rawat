@@ -1,0 +1,200 @@
+{
+  "auth": {
+    "username": "admin",
+    "password": "123"
+  },
+  "todo": [
+    {
+      "title": "Fix UI responsiveness.....",
+      "description": "Make the app responsive for mobile and tablets",
+      "status": "inProgress",
+      "dueDate": "2025-09-20",
+      "assignedUser": 2,
+      "priority": "high",
+      "tags": ["frontend", "ui"],
+      "id": "10"
+    },
+    {
+      "title": "Add user profile page...../..",
+      "description": "Implement profile page with user details",
+      "status": "todo",
+      "dueDate": "2025-09-26",
+      "assignedUser": 3,
+      "priority": "low",
+      "tags": ["frontend"],
+      "id": "11"
+    },
+    {
+      "id": "12",
+      "title": "Implement notifications",
+      "status": "todo",
+      "dueDate": "2024-04-05",
+      "description": "Add due date reminder notifications",
+      "assignedUser": 4,
+      "priority": "medium",
+      "tags": ["feature"]
+    },
+    {
+      "id": "13",
+      "title": "Setup Docker environment",
+      "status": "todo",
+      "dueDate": "2024-04-10",
+      "description": "Containerize app using Docker",
+      "assignedUser": 1,
+      "priority": "high",
+      "tags": ["devops"]
+    },
+    {
+      "id": "14",
+      "title": "Implement dark mode",
+      "status": "todo",
+      "dueDate": "2024-04-15",
+      "description": "Add dark mode toggle",
+      "assignedUser": 2,
+      "priority": "low",
+      "tags": ["ui", "feature"]
+    },
+    {
+      "id": "15",
+      "title": "Add role-based access",
+      "status": "todo",
+      "dueDate": "2024-04-20",
+      "description": "Restrict features based on user roles",
+      "assignedUser": 3,
+      "priority": "high",
+      "tags": ["auth", "backend"]
+    },
+    {
+      "id": "16",
+      "title": "Integrate email service",
+      "status": "todo",
+      "dueDate": "2024-04-25",
+      "description": "Send email reminders using SendGrid",
+      "assignedUser": 4,
+      "priority": "medium",
+      "tags": ["backend", "feature"]
+    },
+    {
+      "id": "17",
+      "title": "Setup logging",
+      "status": "todo",
+      "dueDate": "2024-05-01",
+      "description": "Add Winston logger for backend",
+      "assignedUser": 1,
+      "priority": "medium",
+      "tags": ["backend"]
+    },
+    {
+      "id": "20",
+      "title": "Deploy to production",
+      "status": "todo",
+      "dueDate": "2024-05-15",
+      "description": "Deploy app to AWS",
+      "assignedUser": 4,
+      "priority": "high",
+      "tags": ["devops", "deploy"]
+    },
+    {
+      "id": "21",
+      "title": "Add activity logs",
+      "status": "todo",
+      "dueDate": "2024-05-20",
+      "description": "Log user actions in the system",
+      "assignedUser": 1,
+      "priority": "medium",
+      "tags": ["feature"]
+    },
+    {
+      "id": "22",
+      "title": "Integrate GraphQL API",
+      "status": "todo",
+      "dueDate": "2024-05-25",
+      "description": "Add GraphQL endpoint for advanced queries",
+      "assignedUser": 2,
+      "priority": "high",
+      "tags": ["graphql", "backend"]
+    },
+    {
+      "id": "23",
+      "title": "Add multi-language support",
+      "status": "todo",
+      "dueDate": "2024-05-30",
+      "description": "Support English, Spanish, and French",
+      "assignedUser": 3,
+      "priority": "low",
+      "tags": ["feature", "ui"]
+    },
+    {
+      "id": "24",
+      "title": "Setup analytics dashboard",
+      "status": "todo",
+      "dueDate": "2024-06-05",
+      "description": "Track app usage with charts",
+      "assignedUser": 4,
+      "priority": "medium",
+      "tags": ["analytics", "feature"]
+    },
+    {
+      "id": "1757662354412",
+      "title": "Ajay",
+      "description": "Description",
+      "dueDate": "2025-01-01",
+      "assignedUser": 1,
+      "priority": "high",
+      "tags": [],
+      "status": "todo"
+    },
+    {
+      "id": "1757755411707",
+      "title": "Titletitle",
+      "description": "DescriptionDescription",
+      "dueDate": "2025-09-27",
+      "assignedUser": 1,
+      "priority": "high",
+      "tags": [],
+      "status": "todo"
+    },
+    {
+      "id": "1757759541269",
+      "title": "Create Todo",
+      "description": "Description",
+      "dueDate": "2032-12-29",
+      "assignedUser": 1,
+      "priority": "high",
+      "tags": [],
+      "status": "todo"
+    },
+    {
+      "id": "1757760758129",
+      "title": "fdsasdf",
+      "description": "jknkjnk",
+      "dueDate": "2025-09-26",
+      "assignedUser": 1,
+      "priority": "high",
+      "tags": [],
+      "status": "todo"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@example.com"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com"
+    },
+    {
+      "id": "3",
+      "name": "Mike Johnson",
+      "email": "mike.johnson@example.com"
+    },
+    {
+      "id": "4",
+      "name": "Sarah Wilson",
+      "email": "sarah.wilson@example.com"
+    }
+  ]
+}
